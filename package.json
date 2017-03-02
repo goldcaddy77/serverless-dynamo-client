@@ -1,0 +1,32 @@
+{
+  "name": "serverless-dynamo-client",
+  "version": "1.0.0",
+  "description": "DynamoDB client that plays nicely with serverless-offline and serverless-dynamodb-local",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldcaddy77/serverless-dynamo-client.git"
+  },
+  "keywords": [
+    "dynamodb",
+    "aws",
+    "serverless",
+    "serverless-offline",
+    "serverless-dynamodb-local"
+  ],
+  "author": "Dan Caddigan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goldcaddy77/serverless-dynamo-client/issues"
+  },
+  "homepage": "https://github.com/goldcaddy77/serverless-dynamo-client#readme",
+  "dependencies": {
+    "debug": "^2.6.1"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.20.0"
+  }
+}

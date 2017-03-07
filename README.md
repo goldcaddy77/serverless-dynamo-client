@@ -15,6 +15,7 @@ This is a wrapper around the official AWS.DynamoDB SDK that:
 
 - [Install](#install)
 - [Usage](#usage)
+- [API](#api)
 - [Contribute](#contribute)
 - [License](#license)
 

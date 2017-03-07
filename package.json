@@ -4,7 +4,10 @@
   "description": "DynamoDB client that plays nicely with serverless-offline and serverless-dynamodb-local",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "precommit": "npm test",
+    "prepush": "npm test",
+    "preversion": "npm test",
+    "test": "./node_modules/.bin/ava --verbose"
   },
   "repository": {
     "type": "git",
@@ -27,6 +30,8 @@
     "debug": "^2.6.1"
   },
   "devDependencies": {
-    "aws-sdk": "^2.20.0"
+    "ava": "^0.18.2",
+    "aws-sdk": "^2.20.0",
+    "husky": "^0.13.2"
   }
 }

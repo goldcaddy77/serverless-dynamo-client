@@ -8,8 +8,8 @@
 
 This is a wrapper around the official AWS.DynamoDB SDK that:
 
-- Plays nicely with [serverless-offline](https://github.com/dherault/serverless-offline) by providing sane default behavior based on `IS_OFFLINE` environment variable.
-- Looks for the AWS region config in configurable environment variable
+- Plays nicely with [serverless-offline](https://github.com/dherault/serverless-offline) by providing sane defaults based on `IS_OFFLINE` environment variable.
+- Looks for AWS region in configurable environment variable (details below)
 
 ## Table of Contents
 
